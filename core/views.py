@@ -18,7 +18,7 @@ def contact(request):
             print('Form save')
         else:
             print('Form is invalid')
-    context = {
+    context = { 
         'form':form
     }
     return render(request, 'test.html', context)
